@@ -1,0 +1,318 @@
+* {margin: 0; padding: 0;}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /*background-color: aqua;*/
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.callAnytime {
+    background-color: #494949;
+    padding: 12px;
+}
+.callAnytime p {
+    text-align: center;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+header nav div {
+    height: 92px;
+    padding: 19px 106px;
+    box-sizing: border-box;
+    display: inline-block;
+
+    /*background-color: wheat;*/
+}
+nav img {
+    height: 53px;
+}
+header ul {
+    float: right;
+    display: inline-flex;
+    list-style: none;
+    margin-right: 123px;
+}
+header ul li {
+    font-weight: bolder;
+    font-size: 14.9px;
+    padding: 37px 7.8px;
+}
+header ul li:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+header a {
+    color: #000;
+}
+header a:hover {
+    border-bottom: 2px solid #F08247;
+}
+
+/*_________________sectiion 1_________*/
+.firstSection {
+    padding-top: 139px;
+    background-image: url("https://alphaairlv.com/upload/images/1534253480.IMG_0264.jpg");
+    background-repeat: no-repeat;
+    height: 323px;
+    background-size: contain;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttons p {
+    height: 50px;
+    width: 310px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+}
+.button1 {
+    background-color: #0DD4FF;
+    margin-right: 67px;
+}
+.button2 {
+    background-color: #ED3339;
+}
+.airCond {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: bold;
+    /*box-shadow: 2px 2px 2px rgba(0,0,0,0.7);*/
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+
+/*___________2 section__________*/
+.secondSection {
+    padding: 57px 130px 60px 78px;
+    height: 370px;
+    background-color: #f8f8f8;
+}
+.firsrImg {
+    width: 585px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    float: left;
+}
+.firsrImg img {
+    width: 535px;
+}
+.firsrImg p {
+    font-size: 18px;
+    font-family: Verdana,Geneva,sans-serif;
+    padding-right: 27px;
+    margin-top: 15px;
+}
+.secondImg img {
+    float: right;
+    width: 555px;
+}
+
+/*___________3 section________*/
+.thirdSection {
+    height: 536px;
+    box-sizing: border-box;
+    padding: 60px 105px;
+    font-size: 20px;
+}
+.thirdSection img {
+    width: 555px;
+}
+.thirdSectionImg {
+    float: left;
+}
+.thirdSectionP {
+    display: inline-block;
+    margin: 30px 0 0 113px;
+}
+
+/*_________4 section_______*/
+.fourthSection {
+    height: 910px;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    padding: 84px 105px;
+    font-size: 20px;
+}
+.fourthSection p {
+    margin: 7px 0;
+}
+.fourthSectionP {
+    font-size: 15.5px;
+}
+.ital {
+    font-style: italic;
+}
+
+/*__________________5 section_______________*/
+.fifthSection {
+    height: 303px;
+    box-sizing: border-box;
+    padding: 64px 0;
+}
+.fifthSection p {
+    font-size: 28PX;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.allImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*____________________6section___________*/
+.sixthSection {
+    height: 566px;
+    padding: 6px 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.sixthSection h3 {
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 25px;
+    text-align: center;
+}
+.servicePost {
+    height: 410px;
+    width: 215px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20pX #333;
+}
+.servicePost h2 {
+    padding: 19px;
+    background-color: #ED3339;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+.servicePostContent {
+    padding: 10px;
+}
+.freeEstimate {
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+.freeEstimate p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.freeEstimateP {
+    font-size: 13px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+}
+.freeEstimateP p {
+    margin: 12px 0;
+}
+.time {
+    text-align: center;
+    color: #ED3339;
+    font-style: italic;
+    padding: 10px;
+}
+.btn {
+    text-align: center;
+    background-color: #ED3339;
+    padding: 11px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #333;
+}
+
+/*___________7 section__________*/
+.seventhSection {
+    height: 160px;
+    background-color: #e9e8e8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 49px 111px;
+}
+.seventhSectionDivs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seventhSection img {
+    height: 55px;
+    float: left;
+    /*margin: 51px 111px;*/
+    /*margin: 3.6% 8.2%;*/
+}
+.callFor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.callFor span {
+    color: #ED3339;
+}
+.btn1 {
+    float: right;
+    padding: 5px 30px;
+    color: #fff;
+    background-color: #ED3339;
+}
+
+/*___________________8 section_____________*/
+.eighthSection {
+    padding: 70px 105px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    height: 420px;
+    background-image: url("https://alphaairlv.com/images/footer_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eighthSectionDivs {
+    display: flex;
+    justify-content: space-between;
+}
+.eighthSection a {
+    color: #fff;
+    font-size: 13px;
+}
+.eighthSection h4 {
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.icons {
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+.eighthSection img {
+    height: 24px;
+    width: 24px;
+}
+.concatUs {
+    margin-right: 3%;
+}
+.concatUs p {
+    font-size: 13px;
+    padding: 5px 0;
+}
+.bottom {
+    height: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1f1f1f;
+    color: #fff;
+}
